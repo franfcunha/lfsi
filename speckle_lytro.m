@@ -66,8 +66,9 @@ end
 end
 
 
+% Depois de efetuado o crop a cada uma das vistas com a função "cropviews", calcular contraste
 
-
+L=
 
 % à esquerda
 

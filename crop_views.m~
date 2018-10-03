@@ -23,7 +23,6 @@ for linha=1:15
     
     % aplicar crop
     crop=center(rect(2):rect(2)+rect(4),rect(1):rect(1)+rect(3),:);
-    crop=rgb2gray(crop);
     views_cropped{linha,8}=crop;
     % para cada linha do MLA
     for col=1:7
